@@ -15,13 +15,18 @@ public class Escola {
         c1.addStudent(a2);
         c1.addStudent(a3);
 
+        c2.addStudent(a1);
+        c2.addStudent(a2);
+        c2.addStudent(a3);
+
+        c3.addStudent(a1);
+        c3.addStudent(a2);
+        c3.addStudent(a3);
+
         c1.showStudents();
         a1.showCourses();
 
-        while (true) {
-            
-        }
-
+        
 
     }
 }
