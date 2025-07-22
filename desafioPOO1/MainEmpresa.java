@@ -38,6 +38,11 @@ public class MainEmpresa {
 
         System.out.println("\nCompras do cliente 2:");
         cliente2.showPurchases();
+
+        System.out.println(compra1.totalPurchase());
+        System.out.println(compra2.totalPurchase());
+
+        
     }
 }
 

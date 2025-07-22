@@ -25,4 +25,14 @@ public class Compra {
     public String toString() {
         return "Compra ID: " + id + ", Cliente: " + cliente.name + ", Itens: " + items.size();
     }
+
+    public double totalPurchase() {
+        double total = 0;
+
+        for (Item i : items) {
+            total += i.price * i.quantitiy;
+        }
+
+        return total;
+    }
 }
